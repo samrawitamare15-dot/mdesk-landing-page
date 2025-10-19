@@ -59,7 +59,7 @@ const Navbar = () => {
               About
             </button>
             <Button
-              onClick={() => window.open('https://mdesk.tentsoftlab.com/Login/Overview', '_blank')}
+              onClick={() => window.location.href = 'https://mdesk.tentsoftlab.com/Login/Overview'}
               variant="default"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-6"
             >
@@ -98,7 +98,7 @@ const Navbar = () => {
               About
             </button>
             <Button
-              onClick={() => window.open('https://mdesk.tentsoftlab.com/Login/Overview', '_blank')}
+              onClick={() => window.location.href = 'https://mdesk.tentsoftlab.com/Login/Overview'}
               variant="default"
               className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold"
             >
